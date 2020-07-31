@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<style>
+		h1{
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Noisy Image and Generated Image(Denoised)</h1>
+	{% for name in image_names if name.endswith('.gitkeep') !=True %}
+	 <img width = "200" height="200"  src="{{ url_for('static', filename=name)}}">
+	{% endfor %}
+
+</body>
+</html>
