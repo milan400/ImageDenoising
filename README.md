@@ -15,9 +15,7 @@ UNET Architecture
 ![alt text](https://github.com/milan400/ImageDenoising/blob/master/image_process/home.png)
 
 # Generate Page:
-![alt text]()
-
-# Checkout this WebApp
 ![alt text](https://github.com/milan400/ImageDenoising/blob/master/image_process/result.png)
 
+# Checkout this WebApp
 https://noiseremoval.herokuapp.com/
